@@ -17,13 +17,22 @@ namespace PZ_01
             double a, b, c;
 
             //проверка числа a 
-            if (aInput.ToLower() == "pi") { a = Math.PI; }
+            if (aInput.ToLower() == "pi") 
+            { 
+                a = Math.PI; 
+            }
             else { a = double.Parse(aInput); }
             //проверка числа b
-            if (bInput.ToLower() == "pi") { b = Math.PI; }
+            if (bInput.ToLower() == "pi")
+            { 
+                b = Math.PI;
+            }
             else { b = double.Parse(bInput); }
             //проверка числа c
-            if (cInput.ToLower() == "pi") { c = Math.PI; }
+            if (cInput.ToLower() == "pi") 
+            { 
+                c = Math.PI; 
+            }
             else { c = double.Parse(cInput); }
 
             double num1, num2, result;   // создаем перемнные (числитель, знаменатель и результат)
