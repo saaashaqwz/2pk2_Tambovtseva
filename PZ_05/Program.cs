@@ -11,12 +11,12 @@ namespace PZ_05
 
             do
             {
-                double a = Math.Pow(i, 2);
-                double b = Math.Pow(i, 3);
-                Console.WriteLine($"{i,-7} {a,-7} {b}");
-                i++;
+                double a = Math.Pow(i, 2); //выполение действия возведения в квадрат
+                double b = Math.Pow(i, 3); //выполнение действия возведение в куб
+                Console.WriteLine($"{i,-7} {a,-7} {b}"); //показ итога
+                i++; //увеличивает на 1
             }
-            while (i <= 10);
+            while (i <= 10); //выполение цикла до числа 11
 
             Console.ReadLine();
         }
