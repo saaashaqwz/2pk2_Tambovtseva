@@ -6,7 +6,7 @@ namespace PZ_05
     {
         static void Main(string[] args)
         {
-            int i = 1;
+            int i = 1; //счетчик цикла
             Console.WriteLine("Число  Квадрат  Куб");
 
             do
