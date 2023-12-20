@@ -1,4 +1,4 @@
-﻿namespace PZ_16
+namespace PZ_16
 {
     internal class Program
     {
@@ -230,7 +230,7 @@
             oldSteps = 0; //проверка колво шагов до окончания баффа
         }
 
-        static void Fight() //логика обмена урока
+        static void Fight() //логика обмена удара
         {
             Console.SetCursorPosition(playerOldY, playerOldX);
             Console.WriteLine('_');
